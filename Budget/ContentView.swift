@@ -38,6 +38,13 @@ struct ContentView: View {
                         Label("Add Item", systemImage: "plus")
                     }
                 }
+                ToolbarItem(placement: .primaryAction) {
+                    NavigationLink {
+                        HelloWorldView()
+                    } label: {
+                        Label("Hello World", systemImage: "hand.wave")
+                    }
+                }
             }
         } detail: {
             Text("Select an item")
