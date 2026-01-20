@@ -42,7 +42,7 @@ struct ContentView: View {
                     NavigationLink {
                         HelloWorldView()
                     } label: {
-                        Label("Hello World", systemImage: "hand.wave")
+                        Label("Hello Mama", systemImage: "hand.wave")
                     }
                 }
             }

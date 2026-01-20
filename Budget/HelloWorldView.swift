@@ -3,7 +3,7 @@ import SwiftUI
 struct HelloWorldView: View {
     var body: some View {
         VStack(spacing: 12) {
-            Text("Hello, World!")
+            Text("Hello, Mama!")
                 .font(.largeTitle)
                 .bold()
             Text("Welcome to your Budget app")
